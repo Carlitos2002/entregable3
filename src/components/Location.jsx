@@ -15,7 +15,7 @@ const Location = ({ location, setLocation }) => {
   return (
     <section>
       <header>
-        <img className="flex mx-auto" src="/Frame 435.jpg" alt="" />
+        <img className="flex mx-auto " src="/imah.png" alt="" />
       </header>
       <form
         onSubmit={handleSubmit}
@@ -29,7 +29,7 @@ const Location = ({ location, setLocation }) => {
         />
         <button
           type="submit"
-          className="flex gap-2 text-fuchsia-100 border-solid bg-green-400/50 text-xl items-center p-2 hover:bg-green-200 hover:text-black transition duration-1000"
+          className="flex text-fuchsia-100 border-solid bg-green-400/50 text-xl items-center p-2 hover:bg-green-200 hover:text-black transition duration-1000"
         >
           Search <IconSearch />
         </button>
