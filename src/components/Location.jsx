@@ -19,7 +19,7 @@ const Location = ({ location, setLocation }) => {
       </header>
       <form
         onSubmit={handleSubmit}
-        className="flex border-green-400 border-2 w-72 mx-auto mb-24 items-center"
+        className="flex border-green-400 border-2 max-w-xl mx-auto mb-24 items-center place-content-between"
       >
         <input
           placeholder="Type a location Id ..."
@@ -29,7 +29,7 @@ const Location = ({ location, setLocation }) => {
         />
         <button
           type="submit"
-          className="flex text-fuchsia-100 border-solid bg-green-400/50 text-xl items-center p-2 hover:bg-green-200 hover:text-black transition duration-1000"
+          className="flex text-fuchsia-100 border-solid bg-green-400/50 text-xl items-center p-2 hover:bg-green-200 hover:text-black transition duration-150"
         >
           Search <IconSearch />
         </button>
