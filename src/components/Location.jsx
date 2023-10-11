@@ -13,20 +13,25 @@ const Location = ({ location, setLocation }) => {
   };
 
   return (
-    
     <section>
       <header>
-        <img className="flex mx-auto" src="/public/Frame 435.jpg" alt="" />
+        <img className="flex mx-auto" src="/Frame 435.jpg" alt="" />
       </header>
-      <form onSubmit={handleSubmit} className="flex border-green-400 border-2 w-72 mx-auto mb-24 items-center">
+      <form
+        onSubmit={handleSubmit}
+        className="flex border-green-400 border-2 w-72 mx-auto mb-24 items-center"
+      >
         <input
           placeholder="Type a location Id ..."
           name="idLocation"
           className="text-slate-500 bg-transparent border-none"
           type="number"
         />
-        <button type="submit" className="flex gap-2 text-fuchsia-100 border-solid bg-green-400/50 text-xl items-center p-2 hover:bg-green-200 hover:text-black transition duration-1000">
-          Search <IconSearch/>
+        <button
+          type="submit"
+          className="flex gap-2 text-fuchsia-100 border-solid bg-green-400/50 text-xl items-center p-2 hover:bg-green-200 hover:text-black transition duration-1000"
+        >
+          Search <IconSearch />
         </button>
       </form>
 

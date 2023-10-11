@@ -16,8 +16,8 @@ function App() {
   }, []);
 
   return (
-    <main className="px-4 min-h-screen bg-black text-white bg-[url('/public/background page.jpg')] bg-fixed bg-no-repeat bg-cover bg-center items-center">
-      <Location location={location} setLocation={setLocation}/>
+    <main className="px-4 min-h-screen bg-black text-white bg-[url('/background page.jpg')] bg-fixed bg-no-repeat bg-cover bg-center items-center">
+      <Location location={location} setLocation={setLocation} />
       <ResidentList residents={location?.residents ?? []} />
     </main>
   );
