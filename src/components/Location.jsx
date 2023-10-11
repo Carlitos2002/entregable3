@@ -16,7 +16,7 @@ const Location = ({ location, setLocation }) => {
     
     <section>
       <header>
-        <img className="flex mx-auto" src="\public\Frame.png" alt="" />
+        <img className="flex mx-auto" src=".\public\Frame.png" alt="" />
       </header>
       <form onSubmit={handleSubmit} className="flex border-green-400 border-2 w-72 mx-auto mb-24 items-center">
         <input
